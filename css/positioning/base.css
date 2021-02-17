@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: auto;
+}
+
+ul {
+    max-width: 1600px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+header,
+header>div,
+nav,
+ul,
+address,
+.textcard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.centrion {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.textcard {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.disable {
+    position: absolute;
+    top: -1984px;
+    left: -1984px;
+}
+
+
+/* Header */
+
+header {
+    height: 80px;
+}
+
+header nav {
+    column-gap: 93px;
+}
+
+header ul,
+header address {
+    column-gap: 50px;
+}
+
+header .centrion {
+    padding: 0;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 60px 0 60px 0;
+}
+
+footer address {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 9px;
+}

@@ -1,0 +1,40 @@
+.hero {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.super {
+    padding-bottom: 50px;
+}
+
+.work p {
+    margin-top: 10px;
+}
+
+section:not(.hero) {
+    padding: 94px 0 94px 0;
+}
+
+section.work {
+    padding-bottom: 0;
+}
+
+main ul {
+    column-gap: 30px;
+}
+
+.work li {
+    width: 270px;
+}
+
+.textcard {
+    align-items: center;
+    padding: 30px 59px 30px 60px;
+}
+
+.textcard>p {
+    margin-top: 10px;
+}

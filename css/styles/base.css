@@ -1,0 +1,105 @@
+/* 
+    Font Styles:
+    Roboto 400, 500, 900;
+    Raleway 700;
+*/
+
+:root {
+    --color-accent: #2196F3;
+    --color-text: #757575;
+    --color-headlight: #212121;
+    --color-antiaccent: white;
+    --color-line: #ECECEC;
+    --color-footback: #2F303A;
+    --color-antifootback: rgba(255, 255, 255, 0.6);
+    --color-team: #F5F4FA;
+    --color-light-border: #EEEEEE;
+}
+
+* {
+    list-style-type: none;
+    text-decoration: none;
+    color: unset;
+}
+
+*:visited {
+    color: unset;
+}
+
+address {
+    font-style: unset;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
+}
+
+
+/* header */
+
+header {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--color-headlight);
+    border: 1px solid var(--color-line);
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-headlight);
+}
+
+.logo>span {
+    color: var(--color-accent);
+}
+
+address {
+    color: var(--color-text);
+}
+
+
+/* footer */
+
+footer {
+    background: var(--color-footback);
+}
+
+footer .logo {
+    color: var(--color-antiaccent);
+}
+
+footer a {
+    color: var(--color-antifootback);
+}
+
+footer address a:first-child {
+    color: var(--color-antiaccent);
+}
+
+
+/* Reaction */
+
+a:hover,
+a:focus,
+a.logo:focus,
+a.logo:hover,
+footer address a:hover {
+    color: var(--color-accent);
+}
