@@ -6,6 +6,21 @@
     justify-content: center;
 }
 
+.hero h1 {
+    width: 696px;
+    margin: 0 auto 30px auto;
+}
+
+.hero button {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
 .super {
     padding-bottom: 50px;
 }
@@ -30,11 +45,60 @@ main ul {
     width: 270px;
 }
 
+.work li svg {
+    width: 70px;
+}
+
+.back {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .textcard {
     align-items: center;
     padding: 30px 59px 30px 60px;
 }
 
+.textcard>h3 {
+    width: max-content;
+}
+
 .textcard>p {
     margin-top: 10px;
+}
+
+.team ul.social {
+    margin-top: 16px;
+}
+
+.clients .back {
+    width: 170px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.clients li:nth-child(1) svg {
+    width: 44.27px;
+}
+
+.clients li:nth-child(2) svg {
+    width: 40px;
+}
+
+.clients li:nth-child(3) svg {
+    width: 41px;
+}
+
+.clients li:nth-child(4) svg {
+    width: 79.66px;
+}
+
+.clients li:nth-child(5) svg {
+    width: 59px;
+}
+
+.clients li:nth-child(6) svg {
+    width: 88.48px;
 }

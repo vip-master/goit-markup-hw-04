@@ -14,10 +14,13 @@
     --color-antifootback: rgba(255, 255, 255, 0.6);
     --color-team: #F5F4FA;
     --color-light-border: #EEEEEE;
+    --color-foottransper: rgba(255, 255, 255, 0.1);
+    --color-logos: #AFB1B8;
+    --color-button: #188CE8;
 }
 
 * {
-    list-style-type: none;
+    list-style: none;
     text-decoration: none;
     color: unset;
 }
@@ -44,6 +47,22 @@ h6 {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--color-text);
+}
+
+svg.icon {
+    fill: currentColor;
+    color: inherit;
+}
+
+.social a {
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.social svg {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
 }
 
 
@@ -93,6 +112,21 @@ footer address a:first-child {
     color: var(--color-antiaccent);
 }
 
+footer .connect p {
+    line-height: 1.142857142857142857;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--color-antiaccent);
+}
+
+footer .social svg {
+    fill: var(--color-antiaccent);
+}
+
+footer .social a {
+    background-color: var(--color-foottransper);
+}
+
 
 /* Reaction */
 
@@ -100,6 +134,12 @@ a:hover,
 a:focus,
 a.logo:focus,
 a.logo:hover,
-footer address a:hover {
+footer address a:hover,
+footer address a:focus {
     color: var(--color-accent);
+}
+
+.social a:hover,
+.social a:focus {
+    background-color: var(--color-accent);
 }
